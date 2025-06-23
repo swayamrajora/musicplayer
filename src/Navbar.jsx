@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBell, FaCog, FaSearch } from "react-icons/fa";
-import profilePic from "./assets/profilepic.jpg";
+import profilePic from "./assets/Profilepic.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
