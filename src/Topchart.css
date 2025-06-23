@@ -1,0 +1,97 @@
+.top-charts-container {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 600px;
+  max-height: 400px;
+
+}
+
+.top-charts-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.chart-item:hover {
+  background-color: #333;
+}
+
+.chart-image {
+  width: 50px;
+  height: 49.3px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.chart-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-song {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.chart-artist {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.chart-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  background-color: #444;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #1db954;
+}
+.see-more-btn {
+  background-color: transparent;
+  color: #1db954;
+  border: 1px solid #1db954;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.see-more-btn:hover {
+  background-color: #1db954;
+  color: black;
+}
+
+.top-charts-container.expanded {
+  transition: all 0.3s ease-in-out;
+}
